@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="index p.l.style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body background="pexels-mubaz-basheer-916017.jpg">
+    <header id="A1"><a href="CLOVER DOT.html" id="A1">CLOVER DOT</a></header><br>
+        <ul>
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Features.html">Features</a></li>
+            <li><a href="Promo.html">Promo</a></li>
+            <li><a href="Products.html">Products</a></li>
+            <li><a href="FAQ.html">FAQ</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+        </ul> <br>
+    <h1 id="A3">PRE-ORDER <em id="A3a">CLOVER DOT</em></h1>
+    <fieldset id="A4a">
+        <form target="_self"> 
+        <input type="text" name="firstName" id="A5a" placeholder="FirstName" required><br><br>
+        <input type="text" name="surname" id="A5a" placeholder="Surname" required><br><br>
+    
+        <input type="email" name="email" id="A5" placeholder="email address" maxlength="130" required><br><br>
+        <button id="A6">Pre Order</button>
+    </form>
+    </fieldset>
+<img src="thcho-large.png" alt="thcho speaker" style="float: inline-end;" width="350px" height="290px">
+
+    <h2 id="A4">always getting smarter and adding new features, plus thousands of new skills</h2>
+
+    <h1 id="A7">WHAT CAN <em id="A7b">CLOVER DOT</em> DO?</h1>
+
+    <p id="A8">Uses the Alexa Voice Service to play music, provide information, read the news, set alarms, <br> control smart home devices, and more using just your voice. <br> Connects to speakers over Bluetooth or with the included audio cable to play music from Prime Music, Spotify, <br> Pandora, iHeartRadio. <br> And TuneIn
+Controls smart home devices like lights, switches, thermostats, <br> and more with compatible connected devices from WeMo, Philips Hue, Samsung SmartThings, Nest, ecobee, <br> and others</p>
+   
+    <button id="A9"><a href="Learn More.html" >Learn More</a></button>
+    <script>
+        // Get the form element
+const form = document.querySelector('form');
+
+// Get the button element
+const button = form.querySelector('#A6');
+
+// Add a click event listener to the button
+button.addEventListener('click', function(event) {
+  // Prevent the default form submission behavior
+  event.preventDefault();
+
+  // Get the email input value
+  const email = form.querySelector('#A5').value;
+
+  // Show a message with the email value
+  alert(`Thank you for pre-ordering with us! We will send updates to ${email}.`);
+});
+
+    </script>
+</body>
+<footer id="A1">copyright @2023</footer>
+</html>
