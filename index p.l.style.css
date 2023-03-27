@@ -1,0 +1,86 @@
+body{background-repeat: no-repeat;
+background-size: cover;}
+#A1{color: orange;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+li{
+    float: left;
+}
+li a{display: block;
+    padding: 5px;
+    margin: 2px;
+    border-radius: 10%;
+    background-color: orange;
+
+}
+#A3{color: blue;
+    font-size: 40px;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+}
+#A3a{color:  orange;
+    font-size: 40px;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#A4{color: orange;
+    margin: 5px;
+    font-size: 20px;
+    font-weight: 300;
+    text-transform: capitalize;
+    text-align: justify;
+    text-rendering: auto;
+}
+#A4a{text-align: center;
+    border: 2px solid orange;
+    border-radius: 10px;
+    margin-right: 40%;
+    
+    float: left;
+}
+#A5{border: 2px solid  orange;
+    border-radius: 10px;
+    margin: 2px;
+}
+#A5a{border: 2px solid  orange;
+    border-radius: 10px;
+    margin: 2px;}
+#A6{align-self: center;
+    border: 2px solid  orange;
+    border-radius: 10px;
+}
+#A7{color: blue;
+    font-size: 40px;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: justify;
+}
+#A7b{color:  orange;
+    font-size: 40px;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#A8{color: orange;
+    text-align: justify;
+    text-decoration: wavy;
+    text-justify: auto;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#A9{text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 2px solid  orange;
+    border-radius: 30px;
+    margin-left: 40%;
+    margin-right: 40%;
+}
